@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		879936E42A7E8E0C003A2CD9 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879936E32A7E8E0C003A2CD9 /* ContentView-ViewModel.swift */; };
+		879936E62A7E927B003A2CD9 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879936E52A7E927B003A2CD9 /* FileManager-DocumentsDirectory.swift */; };
 		87E1269B2A7E6E7E00B25B01 /* BucketlistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1269A2A7E6E7E00B25B01 /* BucketlistApp.swift */; };
 		87E1269D2A7E6E7E00B25B01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1269C2A7E6E7E00B25B01 /* ContentView.swift */; };
 		87E1269F2A7E6E7F00B25B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E1269E2A7E6E7F00B25B01 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		879936E32A7E8E0C003A2CD9 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		879936E52A7E927B003A2CD9 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		87E126972A7E6E7E00B25B01 /* Bucketlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bucketlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E1269A2A7E6E7E00B25B01 /* BucketlistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketlistApp.swift; sourceTree = "<group>"; };
 		87E1269C2A7E6E7E00B25B01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 			children = (
 				87E1269A2A7E6E7E00B25B01 /* BucketlistApp.swift */,
 				87E1269C2A7E6E7E00B25B01 /* ContentView.swift */,
+				879936E52A7E927B003A2CD9 /* FileManager-DocumentsDirectory.swift */,
+				879936E32A7E8E0C003A2CD9 /* ContentView-ViewModel.swift */,
 				87E126AC2A7E888800B25B01 /* Result.swift */,
 				87E126AA2A7E83D700B25B01 /* EditView.swift */,
 				87E126A82A7E7D5300B25B01 /* Location.swift */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				87E1269D2A7E6E7E00B25B01 /* ContentView.swift in Sources */,
+				879936E62A7E927B003A2CD9 /* FileManager-DocumentsDirectory.swift in Sources */,
+				879936E42A7E8E0C003A2CD9 /* ContentView-ViewModel.swift in Sources */,
 				87E126AD2A7E888800B25B01 /* Result.swift in Sources */,
 				87E126A92A7E7D5300B25B01 /* Location.swift in Sources */,
 				87E126AB2A7E83D700B25B01 /* EditView.swift in Sources */,
