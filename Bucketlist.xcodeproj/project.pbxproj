@@ -63,8 +63,8 @@
 			children = (
 				87E1269A2A7E6E7E00B25B01 /* BucketlistApp.swift */,
 				87E1269C2A7E6E7E00B25B01 /* ContentView.swift */,
-				879936E52A7E927B003A2CD9 /* FileManager-DocumentsDirectory.swift */,
 				879936E32A7E8E0C003A2CD9 /* ContentView-ViewModel.swift */,
+				879936E52A7E927B003A2CD9 /* FileManager-DocumentsDirectory.swift */,
 				87E126AC2A7E888800B25B01 /* Result.swift */,
 				87E126AA2A7E83D700B25B01 /* EditView.swift */,
 				87E126A82A7E7D5300B25B01 /* Location.swift */,
@@ -290,6 +290,7 @@
 				DEVELOPMENT_TEAM = Y32KBTQURG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow FaceID to lock your places";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,6 +320,7 @@
 				DEVELOPMENT_TEAM = Y32KBTQURG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow FaceID to lock your places";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

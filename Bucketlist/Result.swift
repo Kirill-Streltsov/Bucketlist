@@ -21,7 +21,11 @@ struct Page: Codable, Comparable {
     let terms: [String: [String]]?
     
     var desription: String {
-        terms?["description"]?.first ?? "No further operation"
+        if let descriptionText = terms?["description"]?.first {
+            return descriptionText
+        } else {
+            return "No further operation"
+        }
     }
     
     static func <(lhs: Page, rhs: Page) -> Bool {
