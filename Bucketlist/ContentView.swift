@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("Hello World")
+            .onTapGesture {
+                let str = "Test Message"
+                let url = getDocumentsDirectory().appendingPathComponent("message.txt")
+                
+                do {
+                    try str.write(to: url, atomically: true, encoding: .utf8)
+                    let input = try String(contentsOf: url)
+                    print(input)
+                } catch {
+                    print(error)
+                }
+            }
     }
     
     func getDocumentsDirectory() -> URL {
